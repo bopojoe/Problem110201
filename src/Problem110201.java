@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * @author James O'Rourke_20074556
- * @file Problem1101201
+ * @file Problem110201
  * @assignment Problem110201 Assignment
  * @brief This app is built to solve the Jolly Jumper problem
  * @notes This program does check for a max value but will not end if it is over,
