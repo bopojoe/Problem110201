@@ -80,7 +80,7 @@ public class Problem110201 {
                     int one = currentList[j];
                     int two = currentList[j + 1];
                     int valueToTest = Math.abs(two - one);
-                    if ((valueToTest >= 0 && valueToTest <= amountOfNumbers - 1) && (!checkArray(jollyDifference, valueToTest))) {
+                    if ((valueToTest > 0 && valueToTest <= amountOfNumbers - 1) && (!checkArray(jollyDifference, valueToTest))) {
                         jollyDifference.add(valueToTest);
                     }
                 }
